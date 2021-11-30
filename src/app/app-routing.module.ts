@@ -1,17 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CompanyProfileComponent } from './company-profile/company-profile.component';
+import { HeaderComponent } from 'src/Pages/header/header.component';
 
 const routes: Routes = [
+  { path: 'Header', component: HeaderComponent },
 
-  {path:"",redirectTo:"CompanyProfile",pathMatch:"full"},
-  {
-    path:"CompanyProfile", component: CompanyProfileComponent
-  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

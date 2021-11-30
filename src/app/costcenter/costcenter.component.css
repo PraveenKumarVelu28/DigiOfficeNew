@@ -1,20 +1,9 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
-    text-align: center;
-    color:gray;
-    font-style: bold;
-
-}
-
-
 .table {
     background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
   
 }
 
@@ -33,5 +22,17 @@
     border: 1px solid black;
     border-collapse: collapse;
   }
-
- 
+  .para{
+      color:midnightblue;
+      text-decoration: underline;
+      text-align:center;
+      text-decoration-color: midnightblue;
+  
+  }
+  .para1{
+    color:midnightblue;
+    text-decoration: underline;
+    text-align:center;
+    text-decoration-color: midnightblue;
+    margin-left: 300px;
+  }

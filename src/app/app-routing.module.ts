@@ -31,16 +31,7 @@ const routes: Routes = [
   {path:'SSS',component:SSSComponent},
   {path:'Government',component:GovernmentComponent},
   {path:'USERS',component:USERSComponent},
-  {path:'Adolfo',component:AdolfoComponent},
-
-
-
-import { CompanyProfileComponent } from './company-profile/company-profile.component';
-
-const routes: Routes = [
-  
-  { path: 'Header', component: HeaderComponent },
-  { path: 'CompanyProfile', component: CompanyProfileComponent },
+  {path:'Adolfo',component:AdolfoComponent}
 ];
 
 @NgModule({

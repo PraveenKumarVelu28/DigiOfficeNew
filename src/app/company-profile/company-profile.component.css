@@ -1,9 +1,17 @@
+.container-fluid{
+    background-color: rgb(226, 224, 224);
+}
+.container{
+    background-color: white;
+}
 .bandtxt{
     font-weight: 700;
     font-size: 18px;
-    background-color: aqua;
+    background-color:rgb(214, 208, 208);
     text-align: center;
-    padding: 4px;
+    padding-bottom: 2px;
+    font-weight: 900;
+    padding-top: 12px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,13 +26,22 @@
 .formheading{
     font-weight: 700;
     font-size: 18px;
-    background-color: green;
+    background-color: rgb(7, 106, 119);;
     text-align: left;
-    padding: 4px;
+    padding: 10px;
     font-family: 'Open Sans', sans-serif;
     color: white;
+    margin-top: 10px;
 }
-
-row{
-    border-color: grey;
+.btn{
+    background-color: rgb(7, 106, 119);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: silver;
+    color: rgb(7, 106, 119);;
 }

@@ -5,6 +5,7 @@ import { CompanyProfileComponent } from './company-profile/company-profile.compo
 
 const routes: Routes = [
   
+  
   { path: 'Header', component: HeaderComponent },
   { path: 'CompanyProfile', component: CompanyProfileComponent },
 ];

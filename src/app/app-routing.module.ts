@@ -38,7 +38,7 @@ const routes: Routes = [
   {path:'SSS',component:SSSComponent},
   {path:'Government',component:GovernmentComponent},
   {path:'USERS',component:USERSComponent},
-  {path:'Adolfo',component:AdolfoComponent}
+  {path:'Adolfo',component:AdolfoComponent},
   {
     path: "Help", component: HelpComponent
   },

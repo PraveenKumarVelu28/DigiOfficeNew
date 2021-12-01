@@ -1,0 +1,41 @@
+.department{
+    background-color: lightgrey;
+    color:black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:bold;
+}
+.table {
+    background-color:olivedrab;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+  color:white; 
+}
+.thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  .table, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .para{
+    color:midnightblue;
+    text-decoration: underline;
+    text-align: right;
+    text-decoration-color: midnightblue;
+
+}
+.para1{
+  color:midnightblue;
+  text-decoration: underline;
+  text-align: left;
+  text-decoration-color: midnightblue;
+  
+}
+
+
+
+ 

@@ -1,0 +1,29 @@
+
+.table {
+    background-color:olivedrab;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:white;
+  font-size: 15px;
+  
+}
+
+.thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.tablerow:nth-child(even) {
+    
+    background-color: #dddddd;
+  }
+
+ .user{
+     background-color: lightgray;
+     font-weight: bold;
+     text-align: center;
+ }
+ 

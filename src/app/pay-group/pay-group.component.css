@@ -1,0 +1,31 @@
+.table {
+    background-color:olivedrab;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:white;
+  
+}
+
+.thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tablerow:nth-child(even) {
+    
+    background-color: #dddddd;
+  }
+
+  .table, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .paygroup{
+      text-align: center;
+      background-color: lightgray;
+      font-style:bold;
+
+  }

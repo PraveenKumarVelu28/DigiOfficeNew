@@ -1,0 +1,42 @@
+.government{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control{
+    width:100%;
+    height:auto;
+    padding:0px;
+}
+.save{
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color:white;
+    width:80%;
+    margin-left: 10%;
+}
+   
+.delete{
+    border-radius: 10px;
+    background-color: lightseagreen;
+    color:white;
+    width:80%;
+    margin-left: 10%;
+
+}
+.background{
+    background-color:whitesmoke;
+}
+.text{
+    color:gray;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.text1{
+    color:gray;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+}

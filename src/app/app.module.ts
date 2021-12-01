@@ -38,7 +38,8 @@ import { SproutPayrollComponent } from '../Pages/sprout-payroll/sprout-payroll.c
     USERSComponent,
     AdolfoComponent,
     HelpComponent,
-    SproutPayrollComponent
+    SproutPayrollComponent,
+   
   ],
   imports: [
     BrowserModule,

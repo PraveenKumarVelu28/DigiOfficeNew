@@ -1,0 +1,35 @@
+.general{
+    text-align: center;
+    background-color: lightgray;
+    color:black;
+}
+.table {
+    background-color:olivedrab;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:white;
+  
+}
+
+.thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tablerow:nth-child(even) {
+    
+    background-color: #dddddd;
+  }
+
+  .table, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  .ledger{
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: midnightblue;
+  }

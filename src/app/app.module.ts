@@ -19,6 +19,7 @@ import { AdolfoComponent } from './adolfo/adolfo.component';
 
 import { HelpComponent } from './help/help.component';
 import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
+import { ReportsComponent } from './reports/reports.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.componen
     USERSComponent,
     AdolfoComponent,
     HelpComponent,
-    SproutPayrollComponent
+    SproutPayrollComponent,
+    ReportsComponent
   ],
   imports: [
     BrowserModule,

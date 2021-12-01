@@ -18,12 +18,10 @@ import { USERSComponent } from './users/users.component';
 import { HelpComponent } from './help/help.component';
 import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
 import { CompanyProfileComponent } from './company-profile/company-profile.component';
+import { ReportsComponent } from './reports/reports.component';
 
 const routes: Routes = [
-  
-  
-  { path: 'Header', component: HeaderComponent },
-
+  {path:"",redirectTo:"Payroll",pathMatch:"full"},
   {path:'Header', component: HeaderComponent },
   {path:'Payroll', component: PayrollComponent },
   {path:'Employee', component: EmployeeComponent },
@@ -38,14 +36,11 @@ const routes: Routes = [
   {path:'SSS',component:SSSComponent},
   {path:'Government',component:GovernmentComponent},
   {path:'USERS',component:USERSComponent},
-  {path:'Adolfo',component:AdolfoComponent}
-  {
-    path: "Help", component: HelpComponent
-  },
-  {
-    path: "Sproutpayroll", component: SproutPayrollComponent
-  },
-  { path: 'CompanyProfile', component: CompanyProfileComponent },
+  {path:'Adolfo',component:AdolfoComponent},
+  {path: "Help", component: HelpComponent},
+  {path: "Sproutpayroll", component: SproutPayrollComponent},
+  {path: 'CompanyProfile', component: CompanyProfileComponent },
+  {path: 'Reports', component: ReportsComponent }
 ];
 
 @NgModule({

@@ -7,6 +7,7 @@ import { HeaderComponent } from '../Pages/header/header.component';
 import { HelpComponent } from './help/help.component';
 import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

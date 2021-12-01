@@ -35,6 +35,12 @@ const routes: Routes = [
 
 
 
+import { CompanyProfileComponent } from './company-profile/company-profile.component';
+
+const routes: Routes = [
+  
+  { path: 'Header', component: HeaderComponent },
+  { path: 'CompanyProfile', component: CompanyProfileComponent },
 ];
 
 @NgModule({

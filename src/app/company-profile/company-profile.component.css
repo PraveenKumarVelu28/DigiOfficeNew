@@ -1,0 +1,30 @@
+.bandtxt{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: aqua;
+    text-align: center;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formtxt{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: gainsboro;
+    text-align: left;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+.formheading{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: green;
+    text-align: left;
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+row{
+    border-color: grey;
+}

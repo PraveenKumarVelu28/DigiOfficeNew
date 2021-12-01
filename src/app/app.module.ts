@@ -17,6 +17,8 @@ import { GovernmentComponent } from './government/government.component';
 import { USERSComponent } from './users/users.component';
 import { AdolfoComponent } from './adolfo/adolfo.component';
 
+import { HelpComponent } from './help/help.component';
+import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { AdolfoComponent } from './adolfo/adolfo.component';
     SSSComponent,
     GovernmentComponent,
     USERSComponent,
-    AdolfoComponent
+    AdolfoComponent,
+    HelpComponent,
+    SproutPayrollComponent
   ],
   imports: [
     BrowserModule,

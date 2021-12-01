@@ -15,6 +15,9 @@ import { PayrollComponent } from './payroll/payroll.component';
 import { PhilHealthComponent } from './phil-health/phil-health.component';
 import { SSSComponent } from './sss/sss.component';
 import { USERSComponent } from './users/users.component';
+import { HelpComponent } from './help/help.component';
+import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
+import { CompanyProfileComponent } from './company-profile/company-profile.component';
 
 const routes: Routes = [
   
@@ -36,6 +39,13 @@ const routes: Routes = [
   {path:'Government',component:GovernmentComponent},
   {path:'USERS',component:USERSComponent},
   {path:'Adolfo',component:AdolfoComponent}
+  {
+    path: "Help", component: HelpComponent
+  },
+  {
+    path: "Sproutpayroll", component: SproutPayrollComponent
+  },
+  { path: 'CompanyProfile', component: CompanyProfileComponent },
 ];
 
 @NgModule({

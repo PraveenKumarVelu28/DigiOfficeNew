@@ -1,13 +1,14 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
+.employee{
+    color:black;
     text-align: center;
-    color:gray;
-    font-style: bold;
-
+    background-color: lightgray;
+    height:30px;
 }
+
+/* .label{
+    background-color: olivedrab;
+    color:white;
+} */
 
 
 .table {
@@ -15,6 +16,7 @@
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
   
 }
 
@@ -33,5 +35,3 @@
     border: 1px solid black;
     border-collapse: collapse;
   }
-
- 

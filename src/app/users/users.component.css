@@ -1,27 +1,19 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
-    text-align: center;
-    color:gray;
-    font-style: bold;
-
-}
-
 
 .table {
     background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
+  font-size: 15px;
   
 }
 
 .thead{
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 10px;
+
 }
 
 .tablerow:nth-child(even) {
@@ -29,9 +21,9 @@
     background-color: #dddddd;
   }
 
-  .table, thead {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-
+ .user{
+     background-color: lightgray;
+     font-weight: bold;
+     text-align: center;
+ }
  

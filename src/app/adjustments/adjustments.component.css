@@ -1,0 +1,44 @@
+.para{
+    color:midnightblue;
+    text-decoration: underline;
+    text-align: right;
+    text-decoration-color: midnightblue;
+
+}
+.para1{
+  color:midnightblue;
+  text-decoration: underline;
+  text-align: left;
+  text-decoration-color: midnightblue;
+  
+}
+.table {
+    background-color:olivedrab;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color:white;
+
+  
+}
+
+.thead{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tablerow:nth-child(even) {
+    
+    background-color: #dddddd;
+  }
+
+  .table, thead {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .adjustment{
+      text-align: center;
+      font-style: bold;
+      background-color: lightgrey;
+  }

@@ -1,31 +1,33 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
+.company{
     text-align: center;
-    color:gray;
+    background-color: lightgrey;
     font-style: bold;
-
 }
-
-
+.export{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: lightseagreen;
+    color:lightseagreen;
+    font-style: bold;
+}
 .table {
-    background-color:olivedrab;
+  background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
+  font-size:15px;
   
 }
 
 .thead{
     border: 1px solid #dddddd;
     text-align: left;
-    padding: 8px;
+    padding: 10px;
+     width:5%;
 }
 
 .tablerow:nth-child(even) {
-    
     background-color: #dddddd;
   }
 
@@ -33,5 +35,3 @@
     border: 1px solid black;
     border-collapse: collapse;
   }
-
- 

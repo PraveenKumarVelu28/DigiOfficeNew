@@ -1,20 +1,9 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
-    text-align: center;
-    color:gray;
-    font-style: bold;
-
-}
-
-
 .table {
-    background-color:olivedrab;
+  background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
   
 }
 
@@ -22,6 +11,7 @@
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    width:5%;
 }
 
 .tablerow:nth-child(even) {
@@ -29,9 +19,12 @@
     background-color: #dddddd;
   }
 
-  .table, thead {
+  /* .table, thead {
     border: 1px solid black;
     border-collapse: collapse;
+  } */
+  .philhealth{
+      text-align: center;
+      background-color: lightgray;
+      font-size: 20px;
   }
-
- 

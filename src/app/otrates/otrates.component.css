@@ -1,20 +1,16 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
+.OTRates{
+    background-color: lightgrey;
     text-align: center;
-    color:gray;
     font-style: bold;
-
 }
-
-
 .table {
     background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 50%;
+  color:white;
+  text-align: right;
+ 
   
 }
 
@@ -33,5 +29,3 @@
     border: 1px solid black;
     border-collapse: collapse;
   }
-
- 

@@ -1,0 +1,30 @@
+.table {
+    background-color:olivedrab;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+    
+  }
+  
+  .thead{
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding:2px;
+      width:5%;
+      height:auto;
+      font-size:15px;
+      font-style:normal;
+      
+  }
+  
+  .tablerow:nth-child(even) {
+      
+      background-color: #dddddd;
+    }
+    .sss{
+        text-align: center;
+        background-color: lightgray;
+        font-size:20px;
+
+    }

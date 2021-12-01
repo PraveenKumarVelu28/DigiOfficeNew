@@ -1,20 +1,14 @@
-.payroll{
-    text-align: Center;
-    background-color:lightgray;
-}
-.Year{
+.general{
     text-align: center;
-    color:gray;
-    font-style: bold;
-
+    background-color: lightgray;
+    color:black;
 }
-
-
 .table {
     background-color:olivedrab;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color:white;
   
 }
 
@@ -34,4 +28,8 @@
     border-collapse: collapse;
   }
 
- 
+  .ledger{
+      text-align: center;
+      text-decoration: underline;
+      text-decoration-color: midnightblue;
+  }

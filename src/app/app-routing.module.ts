@@ -1,29 +1,28 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from 'src/Pages/header/header.component';
-import { AdjustmentsComponent } from './adjustments/adjustments.component';
-import { AdolfoComponent } from './adolfo/adolfo.component';
-import { CompanyAdjustmentsComponent } from './company-adjustments/company-adjustments.component';
-import { CostcenterComponent } from './costcenter/costcenter.component';
-import { DepartmentsComponent } from './departments/departments.component';
-import { EmployeeComponent } from './employee/employee.component';
-import { GeneralLedgerComponent } from './general-ledger/general-ledger.component';
-import { GovernmentComponent } from './government/government.component';
-import { OTRatesComponent } from './otrates/otrates.component';
-import { PayGroupComponent } from './pay-group/pay-group.component';
-import { PayrollComponent } from './payroll/payroll.component';
-import { PhilHealthComponent } from './phil-health/phil-health.component';
-import { SSSComponent } from './sss/sss.component';
-import { USERSComponent } from './users/users.component';
-import { HelpComponent } from './help/help.component';
-import { SproutPayrollComponent } from './sprout-payroll/sprout-payroll.component';
-import { CompanyProfileComponent } from './company-profile/company-profile.component';
+import { AdjustmentsComponent } from '../Pages/adjustments/adjustments.component';
+import { AdolfoComponent } from '../Pages/adolfo/adolfo.component';
+import { CompanyAdjustmentsComponent } from '../Pages/company-adjustments/company-adjustments.component';
+import { CostcenterComponent } from '../Pages/costcenter/costcenter.component'
+import { DepartmentsComponent } from '../Pages/departments/departments.component';
+import { EmployeeComponent } from '../Pages/employee/employee.component';
+import { GeneralLedgerComponent } from '../Pages/general-ledger/general-ledger.component';
+import { GovernmentComponent } from '../Pages/government/government.component';
+import { OTRatesComponent } from '../Pages/otrates/otrates.component';
+import { PayGroupComponent } from '../Pages/pay-group/pay-group.component';
+import { PayrollComponent } from '../Pages/payroll/payroll.component';
+import { PhilHealthComponent } from '../Pages/phil-health/phil-health.component';
+import { SSSComponent } from '../Pages/sss/sss.component';
+import { USERSComponent } from '../Pages/users/users.component';
+import { HelpComponent } from '../Pages/help/help.component';
+import { SproutPayrollComponent } from '../Pages/sprout-payroll/sprout-payroll.component';
+import { CompanyProfileComponent } from '../Pages/company-profile/company-profile.component';
 
 const routes: Routes = [
   
   
   { path: 'Header', component: HeaderComponent },
-
   {path:'Header', component: HeaderComponent },
   {path:'Payroll', component: PayrollComponent },
   {path:'Employee', component: EmployeeComponent },
